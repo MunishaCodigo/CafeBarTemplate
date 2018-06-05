@@ -1,0 +1,110 @@
+.cms_coffee {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../Images/header1.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 54px;
+    left: 0;
+    background-color: #1111117a;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: black;
+    background-color:#f1f1f1; 
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.main {
+    overflow-x: hidden;
+    position: relative;
+    top: -90px;
+    margin-left: 280px;
+    font-size: 16px;
+    color: white;
+    background-color: #1111117a;
+    width: 75%;
+    height:85vh;
+}
+.scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.btn-center{
+    margin: 1% 30%;
+}
+.receipt {
+    overflow-x: hidden;
+    margin: 0 15% 5%;
+    font-size: 16px;
+    color: white;
+    background-color: #111111e6;
+    width: 70%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, td ,th{    
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle !important;
+}
+th, td {
+    padding: 15px;
+    color: white;
+}
+td:hover {
+  background-color: #f1f1f1c2;
+  color: black;
+}
+.red
+{
+  color: red;
+}
+.wrapper
+{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.inputField
+{
+    width: 280px;
+    padding: 4px;
+    margin: 4px;
+}
+.textField{
+    padding: 4px;
+    margin: 4px;
+}
+label
+{
+    float: left;
+    width: 100px;
+    font-weight: bold;
+}
